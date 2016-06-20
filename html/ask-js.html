@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Mobile Day 2016</title>
+	<link rel="icon" href="../images/favicon.png">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<style>
+		#question pre {
+		    text-align: left !important;
+		    font-size: 22px;
+		}
+	</style>
+</head>
+<body>
+<div class="container theme-showcase block-question" role="main">
+	<div class="row">
+		<img src="../images/logo_new@2x.png" width="150">
+	</div>
+	<div class="page-header">
+	    <h2 id="title">What will be the output of the program?</h2>
+	</div>
+	<div class="form-group">
+		<div id="clockdiv">
+			<div>
+				<span class="minutes"></span>
+				<div class="smalltext">Minutes</div>
+			</div>
+			<div>
+				<span class="seconds"></span>
+				<div class="smalltext">Seconds</div>
+			</div>
+		</div>
+		<input class="btn btn-success btn-count" type="button" value="Start" onclick="countdown()">
+		<input class="btn btn-danger btn-count" type="button" value="Stop" onclick="cdpause()">
+		<input class="btn btn-default btn-count" type="button" value="Reset" onclick="cdreset()">
+		<input class="btn btn-default btn-count btn-result" type="button" value="Result" onclick="result()">
+	</div>
+	<div class="jumbotron">
+		<h2 id="question"></h2>
+	</div>
+	<a href="../index.html" class="btn btn-primary btn-back cd-top">
+		<span class="glyphicon glyphicon-arrow-left"></span>
+		Back
+	</a>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/json/javascript.js"> </script>
+<script src="../js/custom.js"> </script>
+
+</body>
+</html>

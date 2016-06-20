@@ -1,0 +1,144 @@
+body {
+	padding-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+#clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 60px;
+}
+
+#clockdiv > div {
+    padding: 8px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+}
+
+#clockdiv div > span {
+    padding: 8px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.page-header {
+	border: 0px;
+    padding: 0px;
+    margin: 10px;
+}
+
+.navbar { 
+	background-color: #dddddd;
+}
+
+.navbar-inverse {
+    border-color: #dedede;
+}
+
+.jumbotron {
+	/* padding-left: 0px !important;
+    padding-right: 0px !important; */
+    padding-top: 0px !important;
+    padding-bottom: 5px !important;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.btn-count {
+    margin-top: 0px;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.smalltext {
+    font-size: 18px;
+}
+
+pre {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: -webkit-inline-box;
+}
+
+#question pre {
+    text-align: left !important;
+    font-size: 17px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.block-question {
+    position: relative;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.cd-top {
+    display: inline-block;
+    left: 20px;
+    top: 10px;
+    position: fixed;
+}
+
+body {
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+}
+
+.btn-result {
+    background-color: #48a6ea;
+    color: white;
+}
+
+.btn-result:hover,.btn-result:focus  {
+    background-color: #0387e6;
+    color: white;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#title {
+    color: #d7422f;
+}
