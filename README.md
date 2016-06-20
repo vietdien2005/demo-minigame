@@ -20,6 +20,7 @@ This module requires Node.js 4.0 or higher to run.
 git clone https://github.com/vietdien2005/demo-minigame.git
 
 # install node_modules
+cd demo-minigame
 npm install & npm start
 
 ```
