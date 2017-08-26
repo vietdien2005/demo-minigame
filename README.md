@@ -1,5 +1,7 @@
 # demo-minigame
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/vietdien2005/demo-minigame.svg)](https://greenkeeper.io/)
+
 ## About
 demo-minigame is demo basic game about choose title of question and answer, build with electron.atom.io js 
 
